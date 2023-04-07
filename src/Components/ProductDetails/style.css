@@ -1,0 +1,23 @@
+.react-image-magnify-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.react-image-magnify-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.react-image-magnify-zoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
